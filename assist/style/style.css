@@ -1,0 +1,131 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(
+    110.6deg,
+    rgb(156, 116, 129) -18.3%,
+    rgb(67, 54, 74) 16.4%,
+    rgb(47, 48, 67) 68.2%,
+    rgb(27, 23, 36) 99.1%
+  );
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+
+}
+.box {
+  width: 40%;
+}
+
+.box div button {
+  width: 100%;
+  padding: 10px 6px;
+
+  border: none;
+  outline: none;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 7px;
+  margin: 10px;
+}
+.box-addProduct button {
+  background-color: #121216 !important;
+}
+.box-addProduct button:hover {
+  background-color: #1a1a1f !important;
+}
+.box-search button {
+  background-color: #7878b8;
+}
+.box-search button:hover {
+  background-color: #8282c2;
+}
+.hideButton {
+  background-color: #7878b8;
+}
+.searchInput {
+  width: 100%;
+  color: black;
+  text-indent: 10px;
+}
+
+
+/* table */
+table {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  color: white;
+}
+/* table thead */
+
+table thead tr {
+  background-color: #1a1a1f;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+}
+table td {
+  padding: 10px 6px;
+}
+
+/* table->tbody */
+table tbody tr:nth-child(odd) {
+  background-color: #1a1a1f;
+}
+table tbody tr {
+  background-color: #8282c2;
+  transition: all 0.3s;
+}
+table tbody tr:hover {
+}
+
+/* table buttons */
+table button,
+table input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 6px;
+  cursor: pointer;
+  
+}
+.deleteButton {
+  background-color: rgb(237, 63, 63);
+}
+.deleteButton:hover {
+  background-color: rgb(230, 56, 56);
+}
+
+.updateButton {
+  background-color: rgb(124, 113, 56);
+}
+.updateButton:hover {
+  background-color: rgb(117, 106, 50);
+}
+

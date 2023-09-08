@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crud</title>
+    <link rel="stylesheet" href="./assist/style/style.css" />
+  </head>
+  <body>
+    <h2 class="title">CRUD</h2>
+    <div class="container">
+      <div class="box">
+        <div class="box-addProduct">
+          <button class="addProduct-navigation" onclick="addProductF()">add product</button>
+        </div>
+        <div class="box-search">
+          <button class="search-navigation">search</button>
+        </div>
+      </div>
+
+
+      
+      <table>
+        <thead style="flex-direction: column;">
+         
+          <tr class="search-parent" style="visibility: hidden">
+            <td colspan="7"><input type="text" class="searchInput" onkeyup="searchF()"></td>
+            <td><button class="hideButton" onclick="hideInputSearch()">hide</button></td>
+          </tr>
+
+          <tr>
+            <td>id</td>
+            <td>product name</td>
+            <td>company name</td>
+            <td>product type</td>
+            <td>quantity</td>
+            <td>date of add</td>
+            <td>delete</td>
+            <td>update</td>
+          </tr>
+        </thead>
+
+        <tbody class="tbody">
+        
+        </tbody>
+      </table>
+    </div>
+    <!-- main js -->
+    <script src="./assist/javascript/main.js"></script>
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
+
