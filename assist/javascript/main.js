@@ -14,15 +14,6 @@ if(JSON.parse(localStorage.getItem("products"))) {
    products = [];
 }
 
-// products = [
-//   {"name":"desktop msi motherpoad","company":"msi","product":"computer motherpord","quantity":"4","date":"8/9/2023"},
-//   {"name":"iphone","company":"apple","product":"phone","quantity":"10","date":"8/9/2023"},
-//   {"name":"mouse","company":"logtic","product":"computer mouse","quantity":"5","date":"8/9/2023"},
-//   {"name":"laptop","company":"dell","product":"laptop","quantity":"2","date":"8/9/2023"},
-// ];
-// showData();
-
-
 
 
 // add product
